@@ -1,0 +1,16 @@
+# 忽略 Google API 的機密檔案
+credentials.json
+token.json
+
+# 忽略 Python 的快取和虛擬環境檔案
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# 忽略所有 CSV 檔案
+*.csv
+*.pdf
+# 忽略指定的原始資料夾
+# 結尾的斜線 "/" 代表這是一個資料夾
+# data/
