@@ -41,14 +41,14 @@ pip install -r requirements.txt
 使用方法
 模式一：從 Gmail 自動下載並解析
 # 解析 2025年8月的帳單
-python sinopac_parser_local_GeminiCLI.py --year 2025 --month 8
+python sinopac_parser.py --year 2025 --month 8
 
 # 解析 2024年12月的帳單
-python sinopac_parser_local_GeminiCLI.py --year 2024 --month 12
+python sinopac_parser.py --year 2024 --month 12
 
 模式二：解析本地 PDF 檔案
 # 將 PDF 檔案命名為 statement.pdf 並放在程式目錄
-python sinopac_parser_local_GeminiCLI.py
+python sinopac_parser.py
 
 輸出格式
 程式會產生 CSV 檔案，包含以下欄位：
